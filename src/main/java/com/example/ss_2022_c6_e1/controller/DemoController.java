@@ -10,16 +10,17 @@ import org.springframework.web.bind.annotation.RestController;
 public class DemoController {
 
     @GetMapping("/demo1")
-    public String test1(){
+    public String test1() {
         return "demo1";
     }
 
     @GetMapping("/demo2")
-    public String test2(){
+    public String test2() {
         return "demo2";
     }
+
     @PostMapping("/demo3")
-    public String test3(){
+    public String test3() {
         return "demo3";
     }
 }
